@@ -274,11 +274,11 @@ export default function App() {
           </div>
           <div className="text-center ml-4 flex-shrink-0">
             <img
-              src="https://placehold.co/100x100/E2E8F0/4A5568?text=Suresh"
-              alt="Suresh Kumar"
+              src="https://placehold.co/100x100/E2E8F0/4A5568?text=Photo"
+              alt="user name"
               className="rounded-md w-24 h-24 object-cover mx-auto border"
             />
-            <p className="text-sm font-semibold mt-2">Suresh Kumar</p>
+            <p className="text-sm font-semibold mt-2">user name</p>
           </div>
         </header>
 
