@@ -239,9 +239,9 @@ export default function App() {
   return (
     <div className="bg-gray-50 min-h-screen p-4 sm:p-6 lg:p-8 font-sans">
       <div className="max-w-7xl mx-auto bg-white p-6 sm:p-8 rounded-xl shadow-md">
-        <header className="flex justify-between items-start mb-6">
+        <header className="flex justify-between items-start mb-8">
           <div>
-            <h1 className="text-3xl font-bold text-[#4635FE]">
+            <h1 className="text-3xl font-bold text-[#4635FE] mb-10">
               Channel Partner Application Form
             </h1>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-x-6 gap-y-4 mt-4">
@@ -462,9 +462,6 @@ export default function App() {
                 value={formData.currentLongitude}
                 onChange={handleChange}
               />
-              <div className="lg:col-span-2">
-                <FileUploadField label="Live Location" id="liveLocation" />
-              </div>
             </div>
           </Section>
 
@@ -534,12 +531,6 @@ export default function App() {
                 value={formData.permanentLongitude}
                 onChange={handleChange}
               />
-              <div className="lg:col-span-2">
-                <FileUploadField
-                  label="Live Location"
-                  id="permanentLiveLocation"
-                />
-              </div>
             </div>
           </Section>
 
@@ -573,7 +564,7 @@ export default function App() {
                     value={formData.kycPanNumber}
                     onChange={handleChange}
                     className="w-full px-3 py-1.5 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm bg-white"
-                    placeholder="Enter PAN Number"
+                    placeholder="PAN Number"
                   />
                 </div>
                 <FileUploadField label="Front" id="panFront" />
@@ -594,7 +585,7 @@ export default function App() {
                     value={formData.kycAadharNumber}
                     onChange={handleChange}
                     className="w-full px-3 py-1.5 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm bg-white"
-                    placeholder="Enter Aadhar Number"
+                    placeholder="Aadhar Number"
                   />
                 </div>
                 <FileUploadField label="Front" id="aadharFront" />
@@ -626,7 +617,7 @@ export default function App() {
                     value={formData.kycElecBillNumber}
                     onChange={handleChange}
                     className="w-full px-3 py-1.5 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm bg-white"
-                    placeholder="Enter Bill Number"
+                    placeholder="Bill Number"
                   />
                 </div>
                 <FileUploadField label="Front" id="elecBillFront" />
@@ -660,7 +651,7 @@ export default function App() {
                     value={formData.kycShopActNumber}
                     onChange={handleChange}
                     className="w-full px-3 py-1.5 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm bg-white"
-                    placeholder="Enter Document Number"
+                    placeholder="Document Number"
                   />
                 </div>
                 <FileUploadField label="Front" id="shopActFront" />
