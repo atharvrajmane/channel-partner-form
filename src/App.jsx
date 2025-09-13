@@ -239,9 +239,9 @@ export default function App() {
   return (
     <div className="bg-gray-50 min-h-screen p-4 sm:p-6 lg:p-8 font-sans">
       <div className="max-w-7xl mx-auto bg-white p-6 sm:p-8 rounded-xl shadow-md">
-        <header className="flex justify-between items-start mb-8">
+        <header className="flex justify-between items-start mb-6">
           <div>
-            <h1 className="text-3xl font-bold text-[#4635FE] mb-10">
+            <h1 className="text-3xl font-bold text-[#4635FE] mb-44">
               Channel Partner Application Form
             </h1>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-x-6 gap-y-4 mt-4">
@@ -272,11 +272,11 @@ export default function App() {
               />
             </div>
           </div>
-          <div className="text-center ml-4 flex-shrink-0">
+          <div className="text-center ml-4 flex-shrink-0 mt-24">
             <img
               src="https://placehold.co/100x100/E2E8F0/4A5568?text=Photo"
               alt="user name"
-              className="rounded-md w-24 h-24 object-cover mx-auto border"
+              className="rounded-md w-32 h-40 object-cover mx-auto border"
             />
             <p className="text-sm font-semibold mt-2">user name</p>
           </div>
